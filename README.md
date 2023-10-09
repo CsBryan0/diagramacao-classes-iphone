@@ -1,18 +1,33 @@
-## Getting Started
+# README - Projeto iPhone
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este é um projeto que representa a classe `Iphone`, que implementa várias interfaces para simular um iPhone capaz de realizar diversas funcionalidades, incluindo reprodução de música, operações telefônicas e navegação na internet.
 
-## Folder Structure
+## Classes UML
 
-The workspace contains two folders by default, where:
+![image](https://github.com/CsBryan0/diagramacao-classes-iphone/assets/97749500/8f7473e7-ac04-4672-bccf-aa6ab1f2a972)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Neste projeto, as seguintes classes UML foram definidas:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+### Classe `iPhone`
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+- Representa um dispositivo iPhone.
+- Implementa as interfaces `ReprodutorMusical`, `AparelhoTelefonico` e `NavegadorInternet`.
 
-## Dependency Management
+### Classe `Apple`
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- Representa a empresa Apple, fabricante do iPhone.
+- Possui atributos como nome, fundador e ano de fundação.
+
+### Classe `Lançamento`
+
+- Representa o evento de lançamento do iPhone.
+- Possui atributos como data e local do lançamento.
+
+## Funcionalidades
+
+A classe `iPhone` implementa várias funcionalidades através das interfaces:
+
+- `AparelhoTelefonico`: Permite ligar, atender chamadas e iniciar correio de voz.
+- `NavegadorInternet`: Possibilita a navegação na internet, exibição de páginas, adição de abas e atualização de páginas.
+- `ReprodutorMusical`: Oferece funcionalidades de reprodução de música, como tocar, pausar e selecionar músicas.
+
